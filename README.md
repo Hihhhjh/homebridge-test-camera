@@ -12,25 +12,3 @@ Good manual is here: https://github.com/ccrisan/motioneye/wiki/Install-On-Raspbi
 3. Edit ``config.json`` and add the camera
 3. Run Homebridge
 4. Add extra camera accessories in Home app. The setup code is the same as homebridge.
-
-### Config.json Example
-{
-  "platform": "ugoho.me",
-  "cameraCloud": "PuwellCloud"
-
-  "cameras": [
-    {
-      "name": "Name of the camera eg. GARAGE",
-      "videoConfig": {
-      "uuid": ""
-      	"stillImageSource": "-i http://10.0.19.10/Streaming/channels/101/picture",
-      	"maxStreams": 2,
-      	"maxWidth": 1280,
-      	"maxHeight": 720,
-      	"maxFPS": 30
-      }
-    }
-  ]
-}
-
-
